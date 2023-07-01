@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-color: #2B2A4C;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #961010;
+  
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 3px 0 #EEE2DE;
+
+}
+
+
+.w {
+  background-image: url("./images/tom1.png");
+}
+
+.a {
+  background-image: url("./images/tom2.png");
+}
+
+.s {
+background-image: url("./images/tom3.png");
+}
+
+.d {
+background-image: url("./images/tom4.png");
+}
+
+.j {
+background-image: url("./images/snare.png");
+}
+
+.k {
+background-image: url("./images/crash.png");
+}
+
+.l {
+background-image: url("./images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+  display: flex;
+  
+  justify-content: center;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 9px solid #EEE2DE;
+  
+  font-size: 4rem;
+  
+  line-height: 2;
+  font-weight: 900;
+  color: #961010;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 3px 0 #EEE2DE;
+  border-radius: 50%;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background-color: #b497a4;
+}
